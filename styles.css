@@ -107,7 +107,6 @@ span{
 .button:hover{
     background-color: hsl(159, 36%, 15%)
 }
-
 /* Footer*/
 
 .attribution { 
@@ -140,10 +139,11 @@ span{
         flex-direction: column;
         background-color: #fff;
         width: 300px;
-        height: 400px;
+        height: 380px;
         padding-left: 20px;
         padding-right: 20px;
-        border-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
     }
     
     .photo-deskop{
@@ -157,7 +157,8 @@ span{
     p{
         font-size: 14px;
         color: hsl(228, 12%, 48%);
-        line-height: 25px;
+        line-height: 22px;
+        margin: 8px
     }
     
     #perfume{
@@ -170,17 +171,18 @@ span{
         font-family: 'Fraunces', serif;
         font-size: 32px;
         color: hsl(212, 21%, 14%);
-        line-height: 25px;
+        line-height: 30px;
     
     }
     .price{
         display: flex;
         align-items: center;
+        padding-top: 20px;
     }
     
     #green{
         color: hsl(158, 36%, 37%);
-        padding-right: 30px;
+        padding-right: 20px;
     }
     .prom{
         font-size: 60px;
@@ -189,25 +191,17 @@ span{
     /* Button*/
     
     .button{
-        height: 65px;
-        width: 100%;
+        cursor: pointer;
+        height: 48px;
+        width:;
         background-color: hsl(158, 36%, 37%) ;
         border: none;
         border-radius: 10px;
-        margin-bottom: 20px;
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         color: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-        cursor: pointer;
     }
     
-    .button:hover{
-    background-color: hsl(159, 36%, 15%)
-}
     .cart-ikon{
         width: 16px;
     }
