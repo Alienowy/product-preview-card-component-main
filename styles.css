@@ -1,0 +1,206 @@
+*/{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*left site ad*/
+
+ .item-card{
+    display: flex;
+ }
+ 
+.photo-item
+.photo-deskop{
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*right site ad*/
+
+.body-ad{
+    flex-direction: column;
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 320px;
+    height: 600px;
+    padding-left: 45px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-mobile{
+    display:none;
+}
+
+p{
+    font-size: 19px;
+    color: hsl(228, 12%, 48%);
+    line-height: 30px;
+}
+
+#perfume{
+    text-transform: uppercase ;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+span{
+    font-family: 'Fraunces', serif;
+    font-size: 46px;
+    color: hsl(212, 21%, 14%);
+    line-height: 40px;
+
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+
+#green{
+    color: hsl(158, 36%, 37%);
+    padding-right: 30px;
+}
+.prom{
+    font-size: 60px;
+}
+
+/* Button*/
+
+.button{
+    height: 65px;
+    width: 100%;
+    background-color: hsl(158, 36%, 37%) ;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cart-ikon{
+    width: 20px;
+}
+
+/* Footer*/
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+/* Styles for mobiles*/
+
+@media (max-width: 810px) {
+    .item-card{
+        display: flex;
+        flex-direction: column;
+     }
+     
+    .photo-item 
+    .photo-mobile{
+        width: 340px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
+    }
+    
+    /*right site ad*/
+    
+    .body-ad{
+        flex-direction: column;
+        background-color: #fff;
+        width: 300px;
+        height: 400px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .photo-deskop{
+        display:none;
+    }
+
+    .photo-mobile{
+        display: block;
+    }
+    
+    p{
+        font-size: 14px;
+        color: hsl(228, 12%, 48%);
+        line-height: 25px;
+    }
+    
+    #perfume{
+        text-transform: uppercase ;
+        font-weight: 400;
+        letter-spacing: 5px;
+    }
+    
+    span{
+        font-family: 'Fraunces', serif;
+        font-size: 32px;
+        color: hsl(212, 21%, 14%);
+        line-height: 25px;
+    
+    }
+    .price{
+        display: flex;
+        align-items: center;
+    }
+    
+    #green{
+        color: hsl(158, 36%, 37%);
+        padding-right: 30px;
+    }
+    .prom{
+        font-size: 60px;
+    }
+    
+    /* Button*/
+    
+    .button{
+        height: 65px;
+        width: 100%;
+        background-color: hsl(158, 36%, 37%) ;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    
+    .cart-ikon{
+        width: 16px;
+    }
+}
