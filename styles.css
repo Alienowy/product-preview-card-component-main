@@ -104,6 +104,10 @@ span{
     width: 20px;
 }
 
+.button:hover{
+    background-color: hsl(159, 36%, 15%)
+}
+
 /* Footer*/
 
 .attribution { 
@@ -139,6 +143,7 @@ span{
         height: 400px;
         padding-left: 20px;
         padding-right: 20px;
+        border-radius: 0px;
     }
     
     .photo-deskop{
@@ -200,6 +205,9 @@ span{
         cursor: pointer;
     }
     
+    .button:hover{
+    background-color: hsl(159, 36%, 15%)
+}
     .cart-ikon{
         width: 16px;
     }
