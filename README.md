@@ -5,7 +5,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Links
 
-- Solution URL: [Any feedback would be great](#########)
+- Solution URL: [Any feedback would be great](https://www.frontendmentor.io/solutions/responsive-product-card-preview-challenge-no3-sJUvU0aL7P#comment-63774c4eca9a0624bcef707b)
 - Live Site URL: [Profil Card Component](https://alienowy.github.io/product-preview-card-component-main/)
 
 
