@@ -194,7 +194,7 @@ span{
     .button{
         cursor: pointer;
         height: 48px;
-        width:;
+        width: 100%;
         background-color: hsl(158, 36%, 37%) ;
         border: none;
         border-radius: 10px;
