@@ -93,6 +93,7 @@ span{
     font-family: 'Montserrat', sans-serif;
     font-size: 19px;
     color: #fff;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
